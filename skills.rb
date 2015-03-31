@@ -1,4 +1,4 @@
-module Kill
+module Skills
   def kill
     "You are dead!"
   end
