@@ -1,4 +1,8 @@
+require_relative 'kill.rb'
+
 class GuildMaster
+  include Kill
+
   def initialize(name, rank)
     @name = name
     @rank = rank
@@ -11,3 +15,4 @@ class GuildMaster
 end
 
 p faith = GuildMaster.new('Faith', 'GM')
+faith.kill
