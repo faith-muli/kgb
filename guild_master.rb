@@ -1,6 +1,6 @@
 class GuildMaster
   def initialize(name, rank)
     @name = name
-    @rank = name
+    @rank = rank
   end
 end
